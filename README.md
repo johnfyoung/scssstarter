@@ -1,7 +1,9 @@
 # scssstarter
 A SCSS starter library 
 
-I was trying to create a lightweight, scss starter library with responsveness based on grid and fluid-type.
+This is a lightweight, scss starter library.
+* responsive layout based on grid
+* fluid-type
 
 TODO:
 * document how to use :-)
