@@ -33,6 +33,10 @@ object {
                 width: $width;
             }
 
+            .container > .row{
+                width: $width;
+            }
+
             .hide-#{$label} {
                 display: none;
             }
