@@ -51,12 +51,12 @@ object {
  */
 @mixin grid-columns($cols, $size-label) {
     @for $i from 1 through $cols {
-        .col-#{$size-label}-#{$i} {
+        .container > .row > .col-#{$size-label}-#{$i} {
             grid-column: auto / span #{$i};
         }
 
         @if $i != 12 {
-            .offset-#{$size-label}-#{$i} {
+            .container > .row > .offset-#{$size-label}-#{$i} {
                 grid-column-start: #{$i + 1} !important;
             }
         }
