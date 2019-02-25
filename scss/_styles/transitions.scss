@@ -17,6 +17,27 @@
     animation-duration:1s;
 }
 
+@-webkit-keyframes fadeUp { from { opacity:0; top:50px} to { opacity:1; top: 0} }
+@-moz-keyframes fadeIn { from { opacity:0; top:50px} to { opacity:1; top: 0} }
+@keyframes fadeIn { from { opacity:0; top:50px} to { opacity:1; top: 0} }
+
+.fade-in {
+    position: relative;
+    opacity:0;
+    top:50px;
+    -webkit-animation:fadeUp ease-in 1;
+    -moz-animation:fadeUp ease-in 1;
+    animation:fadeUp ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
 @-webkit-keyframes moveUp { from { top:50px; } to { top:0; } }
 @-moz-keyframes moveUp { from { top:50px; } to { top:0; } }
 @keyframes moveUp { from { top:50px; } to { top:0; } }
