@@ -46,15 +46,15 @@ object {
                     width:100%;
                     text-align: center;
                 }
-            } @else if $label == 'sm' {
-                img {
-                    width:100%;
-                    text-align: center;
-                }
             } @else if $label == 'smd' {
                 img {
                     width:80%;
                     text-align: center;
+                }
+            } @else {
+                img {
+                    width:auto;
+                    max-width: 100%;
                 }
             }
 
