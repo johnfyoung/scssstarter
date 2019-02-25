@@ -18,8 +18,8 @@
 }
 
 @-webkit-keyframes fadeUp { from { opacity:0; top:50px} to { opacity:1; top: 0} }
-@-moz-keyframes fadeIn { from { opacity:0; top:50px} to { opacity:1; top: 0} }
-@keyframes fadeIn { from { opacity:0; top:50px} to { opacity:1; top: 0} }
+@-moz-keyframes fadeUp { from { opacity:0; top:50px} to { opacity:1; top: 0} }
+@keyframes fadeUp { from { opacity:0; top:50px} to { opacity:1; top: 0} }
 
 .fade-up {
     position: relative;
