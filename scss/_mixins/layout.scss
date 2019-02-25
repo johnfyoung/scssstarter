@@ -41,23 +41,6 @@ object {
                 display: block;
             }
 
-            @if $label == 'xs' {
-                img {
-                    width:100%;
-                    text-align: center;
-                }
-            } @else if $label == 'smd' {
-                img {
-                    width:80%;
-                    text-align: center;
-                }
-            } @else {
-                img {
-                    width:auto;
-                    max-width: 100%;
-                }
-            }
-
             @include grid-columns($cols, $label);
         }
     }
