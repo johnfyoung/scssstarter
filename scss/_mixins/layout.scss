@@ -8,6 +8,7 @@
     grid-template-columns: repeat(12, [col-start] 1fr);
     grid-gap: .8rem;
     width:100%;
+    padding: 0 .8rem;
 }
 
 .container > .row > * {
