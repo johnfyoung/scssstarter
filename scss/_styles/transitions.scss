@@ -16,3 +16,24 @@
     -moz-animation-duration:1s;
     animation-duration:1s;
 }
+
+@-webkit-keyframes moveUp { from { top:50px; } to { top:0; } }
+@-moz-keyframes moveUp { from { top:50px; } to { top:0; } }
+@keyframes moveUp { from { top:50px; } to { top:0; } }
+
+.move-up {
+    position: relative;
+    top:50px;
+    -webkit-animation:moveUp ease-in 1;
+    -moz-animation:moveUp ease-in 1;
+    animation:moveUp ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
