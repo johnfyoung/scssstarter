@@ -12,7 +12,8 @@
 }
 
 .container > .row {
-    margin: -1.6rem;
+    margin-left: -.8rem;
+    margin-right: -.8rem;
 }
 
 img,
@@ -38,6 +39,23 @@ object {
 
             .show-#{$label} {
                 display: block;
+            }
+
+            @if $label == 'xs' {
+                img {
+                    width:100%;
+                    text-align: center;
+                }
+            } @else if $label == 'sm' {
+                img {
+                    width:100%;
+                    text-align: center;
+                }
+            } @else if $label == 'smd' {
+                img {
+                    width:80%;
+                    text-align: center;
+                }
             }
 
             @include grid-columns($cols, $label);
