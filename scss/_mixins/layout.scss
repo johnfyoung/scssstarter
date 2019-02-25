@@ -11,9 +11,8 @@
     grid-column: col-start / span 12;
 }
 
-.container > .container {
-    margin: 0 auto;
-    padding: 0;
+.container > .row {
+    margin: -1.6rem;
 }
 
 img,
