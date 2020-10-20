@@ -1,0 +1,23 @@
+{
+  "name": "scssstarter",
+  "version": "1.0.0",
+  "description": "A SCSS Starter Framework",
+  "main": "index.js",
+  "scripts": {
+    "sass-transpile": "node-sass ./scss/starter.scss -o css",
+    "sass-watch": "node-sass -w ./scss/starter.scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnfyoung/scssstarter.git"
+  },
+  "author": "John Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnfyoung/scssstarter/issues"
+  },
+  "homepage": "https://github.com/johnfyoung/scssstarter#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
