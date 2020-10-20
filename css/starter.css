@@ -7,7 +7,7 @@
  * @param $$max-font-size max font size
  */
 .container {
-  margin: .8rem auto;
+  margin: 0 auto;
   width: 100%; }
 
 .container > .row {
