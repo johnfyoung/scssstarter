@@ -27,6 +27,15 @@ $max-page-size: map-get($grid-breakpoints, 'xxl');
 $min-font-size: 14px;
 $max-font-size: 20px;
 
+$min-font-sm-size: 11px;
+$max-font-sm-size: 14px;
+
+$min-font-xs-size: 8px;
+$max-font-xs-size: 12px;
+
+$mod_1: 1.2; // mobile
+$mod_2: 1.5; // desktop
+
 $spacer: 1rem !default;
 $spacers: (
   0: 0,

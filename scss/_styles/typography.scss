@@ -1,0 +1,7 @@
+.text-size-sm {
+  @include fluid-type($min-page-size, $max-page-size, $min-font-sm-size, $min-font-sm-size);
+}
+
+.text-size-xs {
+  @include fluid-type($min-page-size, $max-page-size, $min-font-xs-size, $min-font-xs-size);
+}

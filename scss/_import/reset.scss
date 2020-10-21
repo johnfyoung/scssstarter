@@ -35,6 +35,19 @@ body {
 	line-height: 1.4rem;
 }
 
+h1 {  
+  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem; 
+  @include fluid-type($min-page-size, $max-page-size, $mod_1*$mod_1*$mod_1 *$min-font-size, $mod_2*$mod_2*$mod_2 *$min-font-size);
+}
+h2 {  
+  font-size: $mod_1*$mod_1*$mod_1 *1rem; 
+  @include fluid-type($min-page-size, $max-page-size, $mod_1*$mod_1*$mod_1 *$min-font-size, $mod_2*$mod_2*$mod_2 *$min-font-size);
+}
+h3 { 
+  font-size: $mod_1*$mod_1 *1rem;
+  @include fluid-type($min-page-size,$max-page-size, $mod_1*$mod_1 *$min-font-size, $mod_2*$mod_2 *$min-font-size);
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -57,3 +70,6 @@ table {
 strong, b { 
     font-weight: bold;  
 }
+
+
+
