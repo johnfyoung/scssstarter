@@ -5,10 +5,10 @@
 @import './_import/reset.scss';
 @import './_styles/transitions.scss';
 @import './_styles/typography.scss';
+@import './_styles/lists.scss';
 
 @include grid-containers($grid-breakpoints, $grid-max-widths, $grid-count); 
 
 @include margin-utilities($spacers);
 @include padding-utilities($spacers);
 @include text-utilities($grid-breakpoints, $grid-max-widths);
-
