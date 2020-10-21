@@ -20,32 +20,14 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font: inherit;
-    vertical-align: baseline;
-    @include fluid-type($min-page-size, $max-page-size, $min-font-size, $max-font-size);
+  vertical-align: baseline;
+  @include fluid-type($min-page-size, $max-page-size, $min-font-size, $max-font-size);
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-
-body {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	line-height: 1.4rem;
-}
-
-h1 {  
-  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem; 
-  @include fluid-type($min-page-size, $max-page-size, $mod_1*$mod_1*$mod_1 *$min-font-size, $mod_2*$mod_2*$mod_2 *$min-font-size);
-}
-h2 {  
-  font-size: $mod_1*$mod_1*$mod_1 *1rem; 
-  @include fluid-type($min-page-size, $max-page-size, $mod_1*$mod_1*$mod_1 *$min-font-size, $mod_2*$mod_2*$mod_2 *$min-font-size);
-}
-h3 { 
-  font-size: $mod_1*$mod_1 *1rem;
-  @include fluid-type($min-page-size,$max-page-size, $mod_1*$mod_1 *$min-font-size, $mod_2*$mod_2 *$min-font-size);
 }
 
 ol, ul {
