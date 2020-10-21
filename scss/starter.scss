@@ -1,5 +1,6 @@
 @import './_mixins/typography.scss';
 @import './_mixins/layout.scss';
+@import './_mixins/spacing.scss';
 @import './_import/variables.scss';
 @import './_import/reset.scss';
 @import './_styles/transitions.scss';
@@ -11,6 +12,9 @@ $max-font-size: 20px;
 
 $mod_1: 1.2; // mobile
 $mod_2: 1.5; // desktop
+
+@include margin-utilities($spacers);
+@include padding-utilities($spacers);
 
 h1 {  
   font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem; 

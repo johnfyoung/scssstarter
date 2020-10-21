@@ -1,0 +1,97 @@
+@mixin margin-utilities($spacers) {
+  @each $id, $value in $spacers {
+    .m-#{$id} {
+      margin: $value;
+    }
+
+    .mb-#{$id} {
+      margin-bottom: $value;
+    }
+
+    .mt-#{$id} {
+      margin-top: $value;
+    }
+
+    .my-#{$id} {
+      margin-top: $value;
+      margin-bottom: $value;
+    }
+
+    .mr-#{$id} {
+      margin-right: $value;
+    }
+
+    .ml-#{$id} {
+      margin-left: $value;
+    }
+
+    .mx-#{$id} {
+      margin-left: $value;
+      margin-right: $value;
+    }
+
+    .m-n#{$id} {
+      margin: $value * -1;
+    }
+
+    .mb-n#{$id} {
+      margin-bottom: $value * -1;
+    }
+
+    .mt-n#{$id} {
+      margin-top: $value * -1;
+    }
+
+    .my-n#{$id} {
+      margin-top: $value * -1;
+      margin-bottom: $value * -1;
+    }
+
+    .mr-n#{$id} {
+      margin-right: $value * -1;
+    }
+
+    .ml-n#{$id} {
+      margin-left: $value * -1;
+    }
+
+    .mx-n#{$id} {
+      margin-left: $value * -1;
+      margin-right: $value * -1;
+    }
+  }
+}
+
+@mixin padding-utilities($spacers) {
+  @each $id, $value in $spacers {
+    .p-#{$id} {
+      padding: $value;
+    }
+
+    .pb-#{$id} {
+      padding-bottom: $value;
+    }
+
+    .pt-#{$id} {
+      padding-top: $value;
+    }
+
+    .py-#{$id} {
+      padding-top: $value;
+      padding-bottom: $value;
+    }
+
+    .pr-#{$id} {
+      padding-right: $value;
+    }
+
+    .pl-#{$id} {
+      padding-left: $value;
+    }
+
+    .px-#{$id} {
+      padding-left: $value;
+      padding-right: $value;
+    }
+  }
+}

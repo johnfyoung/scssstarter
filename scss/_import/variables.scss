@@ -22,8 +22,17 @@ $grid-max-widths: (
 
 $grid-count: 12;
 
-
 $min-page-size: 320px;
 $max-page-size: map-get($grid-breakpoints, 'xxl');
 $min-font-size: 14px;
 $max-font-size: 20px;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
