@@ -30,6 +30,8 @@
     justify-content: space-between; }
   .d-flex.d-flex-align-content-center {
     align-content: center; }
+  .d-flex.d-flex-align-items-center {
+    align-items: center; }
 
 img,
 iframe,
@@ -394,7 +396,7 @@ button,
 input[type=submit] {
   border-style: none; }
 
-input[type=text][type=text], input[type=text][type=password], input[type=text][type=email], input[type=text][type=search], input[type=text][type=tel], input[type=text][type=url] {
+input[type=text], input[type=password], input[type=email], input[type=search], input[type=tel], input[type=url] {
   padding: .6rem 1rem;
   border-color: #ccc;
   border-radius: 3px;
