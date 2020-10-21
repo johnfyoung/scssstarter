@@ -1,6 +1,6 @@
 @import './_mixins/typography.scss';
 @import './_mixins/layout.scss';
-@import './_mixins/spacing.scss';
+@import './_mixins/utilities.scss';
 @import './_import/variables.scss';
 @import './_import/reset.scss';
 @import './_styles/transitions.scss';
@@ -15,6 +15,7 @@ $mod_2: 1.5; // desktop
 
 @include margin-utilities($spacers);
 @include padding-utilities($spacers);
+@include text-utilities($grid-breakpoints, $grid-max-widths);
 
 h1 {  
   font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem; 

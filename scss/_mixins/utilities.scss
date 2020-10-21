@@ -60,6 +60,11 @@
       margin-right: $value * -1;
     }
   }
+
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @mixin padding-utilities($spacers) {
@@ -92,6 +97,44 @@
     .px-#{$id} {
       padding-left: $value;
       padding-right: $value;
+    }
+  }
+}
+
+@mixin text-utilities($breakpoints, $widths) {
+  .text-left {
+    text-align: left;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .text-justify {
+    text-align: justify;
+  }
+
+  @each $label, $width in $breakpoints {
+    @media screen and (min-width: #{map-get($breakpoints, $label)}) {
+      .text-#{$label}-left {
+        text-align: left;
+      }
+    
+      .text-#{$label}-center {
+        text-align: center;
+      }
+    
+      .text-#{$label}-right {
+        text-align: right;
+      }
+    
+      .text-#{$label}-justify {
+        text-align: justify;
+      }
     }
   }
 }
