@@ -12,10 +12,15 @@ input[type=submit] {
   border-style: none;
 }
 
-input[type=text] {
-  padding: .6rem 1rem;
-  border-color: $grey-med;
-  border-radius: 3px;
-  border-style: solid;
-  border-width: 1px;
+input[type=text]
+{
+  &[type=text],
+  &[type=password],
+  &[type=email],
+  &[type=search],
+  &[type=tel],
+  &[type=url]
+  {
+    @include input-box();
+  }
 }

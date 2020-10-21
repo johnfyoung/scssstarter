@@ -394,7 +394,7 @@ button,
 input[type=submit] {
   border-style: none; }
 
-input[type=text] {
+input[type=text][type=text], input[type=text][type=password], input[type=text][type=email], input[type=text][type=search], input[type=text][type=tel], input[type=text][type=url] {
   padding: .6rem 1rem;
   border-color: #ccc;
   border-radius: 3px;
