@@ -6,3 +6,8 @@ ul {
   list-style-type: disc;
   padding-left: 1rem;
 }
+
+button,
+input[type=submit] {
+  border-style: none;
+}
