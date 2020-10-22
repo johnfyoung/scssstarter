@@ -31,6 +31,10 @@ nav.nav-top {
   ul.nav-top-menu {
     display: none;
 
+    li {
+      list-style-type: none;
+    }
+
     &.mobile-menu-open {
       display: block;
       background: #f5f5f5;
@@ -46,7 +50,6 @@ nav.nav-top {
 
       li {
         display: block;
-        list-style-type: none;
         margin: 0 auto;
         padding: 1rem .8rem;
         width: calc(480px - 1.6rem);
