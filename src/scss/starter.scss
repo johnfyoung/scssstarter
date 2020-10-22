@@ -6,6 +6,7 @@
 @import './_styles/transitions.scss';
 @import './_styles/typography.scss';
 @import './_styles/layout.scss';
+@import './_components/navigation';
 
 @include grid-containers($grid-breakpoints, $grid-max-widths, $grid-count); 
 

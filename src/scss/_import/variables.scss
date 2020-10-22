@@ -22,6 +22,8 @@ $grid-max-widths: (
 
 $grid-count: 12;
 
+$mobile-breakpoint: map-get($grid-breakpoints, "md");
+
 $min-page-size: 320px;
 $max-page-size: map-get($grid-breakpoints, 'xxl');
 $min-font-size: 12px;
