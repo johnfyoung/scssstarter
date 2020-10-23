@@ -48,6 +48,25 @@ $spacers: (
   5: $spacer * 3,
 ) !default;
 
-$grey-light: #eee;
-$grey-med: #ccc;
-$grey-dark: #555;
+$color-primary: #2e86ab;
+$color-primary-muted: rgb(173, 224, 247), 58%, 43%;
+$color-secondary: #f15156;
+$color-secondary-muted: #eabda8;
+
+
+$color-danger-bg: #ffeaea;
+$color-danger: #932020;
+
+$color-info-bg: #e5fbff;
+$color-info: #1d6172;
+
+$color-success-bg: #F0FFEE;
+$color-success: #266d23;
+
+$color-warning-bg: #fffbdd;
+$color-warning: #878257;
+
+$color-grey-light: #eee;
+$color-grey-med: #ccc;
+$color-grey-dark: #564138;
+$color-grey-charcoal: #22181c;

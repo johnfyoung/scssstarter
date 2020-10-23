@@ -1,27 +1,15 @@
-$color-danger-bg: #ffeaea;
-$color-danger: #932020;
-
-$color-info-bg: #e5fbff;
-$color-info: #1d6172;
-
-$color-success-bg: #F0FFEE;
-$color-success: #266d23;
-
-$color-warning-bg: #fffbdd;
-$color-warning: #878257;
-
 .ss-alert {
   display: block;
 
   border-width: 2px;
   border-style: solid;
-  border-color: $dark-grey;
-  background-color: $light-grey;
+  border-color: $color-grey-dark;
+  background-color: $color-grey-light;
   border-radius: 5px;
 
   padding: .8rem;
 
-  color: $dark-grey;
+  color: $color-grey-charcoal;
 
   .ss-alert-heading {
     font-weight: 700;
