@@ -3,7 +3,7 @@
     width:100%;
 }
 
-.container > .row {
+.row {
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
     grid-gap: .8rem;
@@ -11,7 +11,7 @@
     padding: 0 .8rem;
 }
 
-.container > .row > * {
+.row > * {
     grid-column: col-start / span 12;
 }
 
