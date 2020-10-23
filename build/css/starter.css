@@ -465,6 +465,35 @@ nav.nav-top {
       nav.nav-top ul.nav-top-menu li:first-of-type {
         margin-left: 0; } }
 
+.ss-alert {
+  display: block;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #564138;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: .8rem;
+  color: #22181c; }
+  .ss-alert .ss-alert-heading {
+    font-weight: 700;
+    margin-bottom: .8rem; }
+  .ss-alert.ss-alert-danger {
+    background-color: #ffeaea;
+    color: #932020;
+    border-color: #932020; }
+  .ss-alert.ss-alert-info {
+    background-color: #e5fbff;
+    color: #1d6172;
+    border-color: #1d6172; }
+  .ss-alert.ss-alert-success {
+    background-color: #F0FFEE;
+    color: #266d23;
+    border-color: #266d23; }
+  .ss-alert.ss-alert-warning {
+    background-color: #fffbdd;
+    color: #878257;
+    border-color: #878257; }
+
 @media screen and (min-width: 0) {
   .container {
     width: 100%; }
