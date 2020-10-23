@@ -10,14 +10,14 @@
   margin: 0 auto;
   width: 100%; }
 
-.container > .row {
+.row {
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
   grid-gap: .8rem;
   width: 100%;
   padding: 0 .8rem; }
 
-.container > .row > * {
+.row > * {
   grid-column: col-start / span 12; }
 
 .d-flex {
@@ -493,6 +493,10 @@ nav.nav-top {
     background-color: #fffbdd;
     color: #878257;
     border-color: #878257; }
+
+.ss-box {
+  border: 1px solid #ccc;
+  padding: 1rem; }
 
 @media screen and (min-width: 0) {
   .container {

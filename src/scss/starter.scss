@@ -8,6 +8,7 @@
 @import './_styles/layout.scss';
 @import './_components/navigation';
 @import './_components/alerts';
+@import './_components/box';
 
 @include grid-containers($grid-breakpoints, $grid-max-widths, $grid-count); 
 
