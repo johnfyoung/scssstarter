@@ -46,3 +46,7 @@ h4 {
 .text-size-xs {
   @include fluid-type($min-page-size, $max-page-size, $min-font-xs-size, $min-font-xs-size);
 }
+
+em {
+  font-style: italic;
+}
