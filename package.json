@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/johnfyoung/scssstarter#readme",
   "dependencies": {
+    "@ungap/url-search-params": "github:ungap/url-search-params",
     "node-sass": "^4.14.1"
   },
   "devDependencies": {
