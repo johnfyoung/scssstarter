@@ -24,6 +24,12 @@
   flex-wrap: wrap;
   margin-right: calc(var(--ss-gutter-x) / -2);
   margin-left: calc(var(--ss-gutter-x) / -2); }
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--ss-gutter-x) / 2);
+    padding-left: calc(var(--ss-gutter-x) / 2); }
 
 /**
  * Create css classes based on breakpoints and their corresponding widths (@see variables.scss) and column count
