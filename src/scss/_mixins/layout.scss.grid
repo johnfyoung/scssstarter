@@ -3,28 +3,16 @@
     width:100%;
 }
 
-/**
- * Based on Bootstrap
- */ 
 .row {
-    --ss-gutter-x: 1.5rem;
-    --ss-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--ss-gutter-y) * -1); // stylelint-disable-line function-disallowed-list
-    margin-right: calc(var(--ss-gutter-x) / -2); // stylelint-disable-line function-disallowed-list
-    margin-left: calc(var(--ss-gutter-x) / -2); // stylelint-disable-line function-disallowed-list
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-gap: .8rem;
+    width:100%;
+    padding: 0 .8rem;
+}
 
-    & > * {
-        // Add box sizing if only the grid is loaded
-        box-sizing: border-box;
-        flex-shrink: 0;
-        width: 100%;
-        max-width: 100%; // Prevent `.col-auto`, `.col` (& responsive variants) from breaking out the grid
-        padding-right: calc(var(--ss-gutter-x) / 2); // stylelint-disable-line function-disallowed-list
-        padding-left: calc(var(--ss-gutter-x) / 2); // stylelint-disable-line function-disallowed-list
-        margin-top: var(--ss-gutter-y);
-    }
+.row > * {
+    grid-column: col-start / span 12;
 }
 
 .d-flex {
@@ -92,15 +80,12 @@ object {
 @mixin grid-columns($cols, $size-label) {
     @for $i from 1 through $cols {
         .row > .col-#{$size-label}-#{$i} {
-            //grid-column: auto / span #{$i};
-            flex: 0 0 auto;
-            width: percentage($i / $cols);
+            grid-column: auto / span #{$i};
         }
 
         @if $i != 12 {
             .row > .offset-#{$size-label}-#{$i} {
-                $num: $i / $cols;
-                margin-left: if($num == 0, 0, percentage($num));
+                grid-column-start: #{$i + 1} !important;
             }
         }
     }
