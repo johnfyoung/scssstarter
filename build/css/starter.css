@@ -21,9 +21,7 @@
   --ss-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(var(--ss-gutter-y) * -1);
-  margin-right: calc(var(--ss-gutter-x) / -2);
-  margin-left: calc(var(--ss-gutter-x) / -2); }
+  margin-top: calc(var(--ss-gutter-y) * -1); }
   .row > * {
     box-sizing: border-box;
     flex-shrink: 0;
@@ -555,9 +553,7 @@ nav.nav-top {
   .container {
     width: 100%; }
   .container > .row {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto; }
+    width: 100%; }
   .hide-xs {
     display: none; }
   .show-xs {
@@ -625,9 +621,7 @@ nav.nav-top {
   .container {
     width: 480px; }
   .container > .row {
-    width: 480px;
-    margin-left: auto;
-    margin-right: auto; }
+    width: 480px; }
   .hide-sm {
     display: none; }
   .show-sm {
@@ -695,9 +689,7 @@ nav.nav-top {
   .container {
     width: 576px; }
   .container > .row {
-    width: 576px;
-    margin-left: auto;
-    margin-right: auto; }
+    width: 576px; }
   .hide-smd {
     display: none; }
   .show-smd {
@@ -765,9 +757,7 @@ nav.nav-top {
   .container {
     width: 720px; }
   .container > .row {
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto; }
+    width: 720px; }
   .hide-md {
     display: none; }
   .show-md {
@@ -835,9 +825,7 @@ nav.nav-top {
   .container {
     width: 880px; }
   .container > .row {
-    width: 880px;
-    margin-left: auto;
-    margin-right: auto; }
+    width: 880px; }
   .hide-mdlg {
     display: none; }
   .show-mdlg {
@@ -905,9 +893,7 @@ nav.nav-top {
   .container {
     width: 1000px; }
   .container > .row {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto; }
+    width: 1000px; }
   .hide-lg {
     display: none; }
   .show-lg {
@@ -975,9 +961,7 @@ nav.nav-top {
   .container {
     width: 1024px; }
   .container > .row {
-    width: 1024px;
-    margin-left: auto;
-    margin-right: auto; }
+    width: 1024px; }
   .hide-xl {
     display: none; }
   .show-xl {
@@ -1045,9 +1029,7 @@ nav.nav-top {
   .container {
     width: 1170px; }
   .container > .row {
-    width: 1170px;
-    margin-left: auto;
-    margin-right: auto; }
+    width: 1170px; }
   .hide-xxl {
     display: none; }
   .show-xxl {

@@ -15,8 +15,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: calc(var(--ss-gutter-y) * -1); // stylelint-disable-line function-disallowed-list
-    margin-right: calc(var(--ss-gutter-x) / -2); // stylelint-disable-line function-disallowed-list
-    margin-left: calc(var(--ss-gutter-x) / -2); // stylelint-disable-line function-disallowed-list
+    // margin-right: calc(var(--ss-gutter-x) / -2); // stylelint-disable-line function-disallowed-list
+    // margin-left: calc(var(--ss-gutter-x) / -2); // stylelint-disable-line function-disallowed-list
 
     & > * {
         // Add box sizing if only the grid is loaded
@@ -80,8 +80,6 @@ object {
 
             .container > .row{
                 width: $width;
-                margin-left: auto;
-                margin-right: auto;
             }
 
             .hide-#{$label} {
