@@ -515,11 +515,49 @@ nav.nav-top {
   border: 1px solid #ccc;
   padding: 1rem; }
 
+.row > .col-1 {
+  flex: 1 0 0%; }
+
+.row > .col-2 {
+  flex: 1 0 0%; }
+
+.row > .col-3 {
+  flex: 1 0 0%; }
+
+.row > .col-4 {
+  flex: 1 0 0%; }
+
+.row > .col-5 {
+  flex: 1 0 0%; }
+
+.row > .col-6 {
+  flex: 1 0 0%; }
+
+.row > .col-7 {
+  flex: 1 0 0%; }
+
+.row > .col-8 {
+  flex: 1 0 0%; }
+
+.row > .col-9 {
+  flex: 1 0 0%; }
+
+.row > .col-10 {
+  flex: 1 0 0%; }
+
+.row > .col-11 {
+  flex: 1 0 0%; }
+
+.row > .col-12 {
+  flex: 1 0 0%; }
+
 @media screen and (min-width: 0) {
   .container {
     width: 100%; }
   .container > .row {
-    width: 100%; }
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
   .hide-xs {
     display: none; }
   .show-xs {
@@ -587,7 +625,9 @@ nav.nav-top {
   .container {
     width: 480px; }
   .container > .row {
-    width: 480px; }
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto; }
   .hide-sm {
     display: none; }
   .show-sm {
@@ -655,7 +695,9 @@ nav.nav-top {
   .container {
     width: 576px; }
   .container > .row {
-    width: 576px; }
+    width: 576px;
+    margin-left: auto;
+    margin-right: auto; }
   .hide-smd {
     display: none; }
   .show-smd {
@@ -723,7 +765,9 @@ nav.nav-top {
   .container {
     width: 720px; }
   .container > .row {
-    width: 720px; }
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto; }
   .hide-md {
     display: none; }
   .show-md {
@@ -791,7 +835,9 @@ nav.nav-top {
   .container {
     width: 880px; }
   .container > .row {
-    width: 880px; }
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto; }
   .hide-mdlg {
     display: none; }
   .show-mdlg {
@@ -859,7 +905,9 @@ nav.nav-top {
   .container {
     width: 1000px; }
   .container > .row {
-    width: 1000px; }
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto; }
   .hide-lg {
     display: none; }
   .show-lg {
@@ -927,7 +975,9 @@ nav.nav-top {
   .container {
     width: 1024px; }
   .container > .row {
-    width: 1024px; }
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto; }
   .hide-xl {
     display: none; }
   .show-xl {
@@ -995,7 +1045,9 @@ nav.nav-top {
   .container {
     width: 1170px; }
   .container > .row {
-    width: 1170px; }
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto; }
   .hide-xxl {
     display: none; }
   .show-xxl {
