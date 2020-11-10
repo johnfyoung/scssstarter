@@ -19,16 +19,16 @@
     @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
         & {
             font-size: $min-font-size;
-            line-height: calc(#{$min-font-size} * 1.3);
+            line-height: calc(#{$min-font-size} * 1.5);
             @media screen and (min-width: $min-vw) {
                 $fontSize: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
                 font-size: $fontSize;
-                line-height: calc(#{$fontSize} * 1.3);
+                line-height: calc(#{$fontSize} * 1.5);
             }
 
             @media screen and (min-width: $max-vw) {
                 font-size: $max-font-size;
-                line-height: calc(#{$max-font-size} * 1.3);
+                line-height: calc(#{$max-font-size} * 1.5);
             }
         }
     }

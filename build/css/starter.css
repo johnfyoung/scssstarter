@@ -97,7 +97,7 @@ time, mark, audio, video {
   menu, nav, output, ruby, section, summary,
   time, mark, audio, video {
     font-size: 12px;
-    line-height: calc(12px * 1.3); }
+    line-height: calc(12px * 1.5); }
     @media screen and (min-width: 320px) {
       html, body, div, span, applet, object, iframe,
       h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -113,7 +113,7 @@ time, mark, audio, video {
       menu, nav, output, ruby, section, summary,
       time, mark, audio, video {
         font-size: calc(12px + 6 * ((100vw - 320px) / 880));
-        line-height: calc(calc(12px + 6 * ((100vw - 320px) / 880)) * 1.3); } }
+        line-height: calc(calc(12px + 6 * ((100vw - 320px) / 880)) * 1.5); } }
     @media screen and (min-width: 1200px) {
       html, body, div, span, applet, object, iframe,
       h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -129,7 +129,7 @@ time, mark, audio, video {
       menu, nav, output, ruby, section, summary,
       time, mark, audio, video {
         font-size: 18px;
-        line-height: calc(18px * 1.3); } }
+        line-height: calc(18px * 1.5); } }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -281,7 +281,7 @@ time, mark, audio, video {
   menu, nav, output, ruby, section, summary,
   time, mark, audio, video {
     font-size: 12px;
-    line-height: calc(12px * 1.3); }
+    line-height: calc(12px * 1.5); }
     @media screen and (min-width: 320px) {
       html, body, div, span, applet, object, iframe,
       h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -297,7 +297,7 @@ time, mark, audio, video {
       menu, nav, output, ruby, section, summary,
       time, mark, audio, video {
         font-size: calc(12px + 6 * ((100vw - 320px) / 880));
-        line-height: calc(calc(12px + 6 * ((100vw - 320px) / 880)) * 1.3); } }
+        line-height: calc(calc(12px + 6 * ((100vw - 320px) / 880)) * 1.5); } }
     @media screen and (min-width: 1200px) {
       html, body, div, span, applet, object, iframe,
       h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -313,7 +313,7 @@ time, mark, audio, video {
       menu, nav, output, ruby, section, summary,
       time, mark, audio, video {
         font-size: 18px;
-        line-height: calc(18px * 1.3); } }
+        line-height: calc(18px * 1.5); } }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
@@ -322,81 +322,81 @@ h1 {
   font-size: 2.0736rem; }
   h1 {
     font-size: 20.736px;
-    line-height: calc(20.736px * 1.3); }
+    line-height: calc(20.736px * 1.5); }
     @media screen and (min-width: 320px) {
       h1 {
         font-size: calc(20.736px + 19.764 * ((100vw - 320px) / 880));
-        line-height: calc(calc(20.736px + 19.764 * ((100vw - 320px) / 880)) * 1.3); } }
+        line-height: calc(calc(20.736px + 19.764 * ((100vw - 320px) / 880)) * 1.5); } }
     @media screen and (min-width: 1200px) {
       h1 {
         font-size: 40.5px;
-        line-height: calc(40.5px * 1.3); } }
+        line-height: calc(40.5px * 1.5); } }
 
 h2 {
   font-size: 1.728rem; }
   h2 {
     font-size: 20.736px;
-    line-height: calc(20.736px * 1.3); }
+    line-height: calc(20.736px * 1.5); }
     @media screen and (min-width: 320px) {
       h2 {
         font-size: calc(20.736px + 19.764 * ((100vw - 320px) / 880));
-        line-height: calc(calc(20.736px + 19.764 * ((100vw - 320px) / 880)) * 1.3); } }
+        line-height: calc(calc(20.736px + 19.764 * ((100vw - 320px) / 880)) * 1.5); } }
     @media screen and (min-width: 1200px) {
       h2 {
         font-size: 40.5px;
-        line-height: calc(40.5px * 1.3); } }
+        line-height: calc(40.5px * 1.5); } }
 
 h3 {
   font-size: 1.44rem; }
   h3 {
     font-size: 17.28px;
-    line-height: calc(17.28px * 1.3); }
+    line-height: calc(17.28px * 1.5); }
     @media screen and (min-width: 320px) {
       h3 {
         font-size: calc(17.28px + 9.72 * ((100vw - 320px) / 880));
-        line-height: calc(calc(17.28px + 9.72 * ((100vw - 320px) / 880)) * 1.3); } }
+        line-height: calc(calc(17.28px + 9.72 * ((100vw - 320px) / 880)) * 1.5); } }
     @media screen and (min-width: 1200px) {
       h3 {
         font-size: 27px;
-        line-height: calc(27px * 1.3); } }
+        line-height: calc(27px * 1.5); } }
 
 h4 {
   font-size: 1.2rem; }
   h4 {
     font-size: 14.4px;
-    line-height: calc(14.4px * 1.3); }
+    line-height: calc(14.4px * 1.5); }
     @media screen and (min-width: 320px) {
       h4 {
         font-size: calc(14.4px + 3.6 * ((100vw - 320px) / 880));
-        line-height: calc(calc(14.4px + 3.6 * ((100vw - 320px) / 880)) * 1.3); } }
+        line-height: calc(calc(14.4px + 3.6 * ((100vw - 320px) / 880)) * 1.5); } }
     @media screen and (min-width: 1200px) {
       h4 {
         font-size: 18px;
-        line-height: calc(18px * 1.3); } }
+        line-height: calc(18px * 1.5); } }
 
 .text-size-sm {
   font-size: 11px;
-  line-height: calc(11px * 1.3); }
+  line-height: calc(11px * 1.5); }
   @media screen and (min-width: 320px) {
     .text-size-sm {
       font-size: calc(11px + 0 * ((100vw - 320px) / 880));
-      line-height: calc(calc(11px + 0 * ((100vw - 320px) / 880)) * 1.3); } }
+      line-height: calc(calc(11px + 0 * ((100vw - 320px) / 880)) * 1.5); } }
   @media screen and (min-width: 1200px) {
     .text-size-sm {
       font-size: 11px;
-      line-height: calc(11px * 1.3); } }
+      line-height: calc(11px * 1.5); } }
 
 .text-size-xs {
   font-size: 8px;
-  line-height: calc(8px * 1.3); }
+  line-height: calc(8px * 1.5); }
   @media screen and (min-width: 320px) {
     .text-size-xs {
       font-size: calc(8px + 0 * ((100vw - 320px) / 880));
-      line-height: calc(calc(8px + 0 * ((100vw - 320px) / 880)) * 1.3); } }
+      line-height: calc(calc(8px + 0 * ((100vw - 320px) / 880)) * 1.5); } }
   @media screen and (min-width: 1200px) {
     .text-size-xs {
       font-size: 8px;
-      line-height: calc(8px * 1.3); } }
+      line-height: calc(8px * 1.5); } }
 
 em {
   font-style: italic; }
