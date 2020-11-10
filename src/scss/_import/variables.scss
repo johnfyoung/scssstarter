@@ -21,6 +21,7 @@ $grid-max-widths: (
 );
 
 $grid-count: 12;
+$grid-gutter-width: 30px !default;
 
 $mobile-breakpoint: map-get($grid-breakpoints, "md");
 

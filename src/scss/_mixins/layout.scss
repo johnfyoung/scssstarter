@@ -1,6 +1,7 @@
 .container {
-    --bs-gutter-x: 1.5rem;
-    margin: 0 auto;
+    --bs-gutter-x: $grid-gutter-width;
+    margin-left: auto;
+    margin-right: auto;
     width:100%;
     padding-right: calc(var(--bs-gutter-x) / 2); // stylelint-disable-line function-disallowed-list
     padding-left: calc(var(--bs-gutter-x) / 2); // stylelint-disable-line function-disallowed-list
@@ -10,18 +11,18 @@
  * Based on Bootstrap
  */ 
 .row {
-    --ss-gutter-x: 1.5rem;
+    --ss-gutter-x: $grid-gutter-width;
     --ss-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc(var(--ss-gutter-y) * -1); // stylelint-disable-line function-disallowed-list
-    // margin-right: calc(var(--ss-gutter-x) / -2); // stylelint-disable-line function-disallowed-list
-    // margin-left: calc(var(--ss-gutter-x) / -2); // stylelint-disable-line function-disallowed-list
+    // margin-top: calc(var(--ss-gutter-y) * -1); // stylelint-disable-line function-disallowed-list
+    margin-right: calc(var(--ss-gutter-x) / -2); // stylelint-disable-line function-disallowed-list
+    margin-left: calc(var(--ss-gutter-x) / -2); // stylelint-disable-line function-disallowed-list
 
     & > * {
         // Add box sizing if only the grid is loaded
-        box-sizing: border-box;
-        flex-shrink: 0;
+        // box-sizing: border-box;
+        // flex-shrink: 0;
         width: 100%;
         max-width: 100%; // Prevent `.col-auto`, `.col` (& responsive variants) from breaking out the grid
         padding-right: calc(var(--ss-gutter-x) / 2); // stylelint-disable-line function-disallowed-list
@@ -30,45 +31,15 @@
     }
 }
 
-.d-flex {
-    display: flex;
-    
-    &.d-flex-justify-content-end {
-        justify-content: flex-end;
-    }
-
-    &.d-flex-justify-content-start {
-        justify-content: flex-start;
-    }
-
-    &.d-flex-justify-space-between {
-        justify-content: space-between;
-    }
-
-    &.d-flex-align-content-center {
-        align-content: center;
-    }
-
-    &.d-flex-align-items-center {
-        align-items: center;
-    }
-}
-
-
-img,
-iframe,
-video,
-object { 
-    max-width: 100%;  
-}
-
 /**
  * Create css classes based on breakpoints and their corresponding widths (@see variables.scss) and column count
  */
 @mixin grid-containers($breakpoints, $widths, $cols) {
     @for $i from 1 through $cols {
         .row > .col-#{$i} {
-            flex: 1 0 0%;
+            flex-basis: 0;
+            flex-grow: 1;
+            max-width: 100%;
         }
     }
 
@@ -102,8 +73,8 @@ object {
     @for $i from 1 through $cols {
         .row > .col-#{$size-label}-#{$i} {
             //grid-column: auto / span #{$i};
-            flex: 0 0 auto;
-            width: percentage($i / $cols);
+            flex: 0 0 percentage($i / $cols);
+            max-width: percentage($i / $cols);
         }
 
         @if $i != 12 {
@@ -132,4 +103,36 @@ object {
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
+}
+
+.d-flex {
+    display: flex;
+    
+    &.d-flex-justify-content-end {
+        justify-content: flex-end;
+    }
+
+    &.d-flex-justify-content-start {
+        justify-content: flex-start;
+    }
+
+    &.d-flex-justify-space-between {
+        justify-content: space-between;
+    }
+
+    &.d-flex-align-content-center {
+        align-content: center;
+    }
+
+    &.d-flex-align-items-center {
+        align-items: center;
+    }
+}
+
+
+img,
+iframe,
+video,
+object { 
+    max-width: 100%;  
 }
