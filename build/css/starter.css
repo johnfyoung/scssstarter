@@ -570,8 +570,6 @@ nav.nav-top {
 @media screen and (min-width: 0) {
   .container {
     width: 100%; }
-  .container > .row {
-    width: 100%; }
   .hide-xs {
     display: none; }
   .show-xs {

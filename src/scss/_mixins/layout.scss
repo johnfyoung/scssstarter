@@ -48,9 +48,11 @@
             .container {
                 width: $width;
             }
-
-            .container > .row{
-                width: $width;
+            
+            @if $label != "xs" {
+                .container > .row{
+                    width: $width;
+                }
             }
 
             .hide-#{$label} {
