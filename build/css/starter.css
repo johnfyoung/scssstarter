@@ -7,8 +7,11 @@
  * @param $$max-font-size max font size
  */
 .container {
+  --bs-gutter-x: 1.5rem;
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) / 2);
+  padding-left: calc(var(--bs-gutter-x) / 2); }
 
 /**
  * Based on Bootstrap
