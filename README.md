@@ -1,9 +1,11 @@
 # scssstarter
-A SCSS starter library 
+A SCSS starter library
 
 This is a lightweight, scss starter library.
 * responsive layout based on grid
 * fluid-typography
+
+I wanted to learn how to really use SCSS so I studied Twitter Bootstrap, took the ideas I liked and modified as I needed. I have been adding things as they make sense to me. It is not a perfect library, but it works for me ;-).
 
 ## Layout
 
