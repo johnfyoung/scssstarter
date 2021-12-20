@@ -19,14 +19,12 @@
     "url": "https://github.com/johnfyoung/scssstarter/issues"
   },
   "homepage": "https://github.com/johnfyoung/scssstarter#readme",
-  "dependencies": {
-    "@ungap/url-search-params": "github:ungap/url-search-params",
-    "node-sass": "^4.14.1"
-  },
   "devDependencies": {
-    "copy-webpack-plugin": "^6.2.1",
-    "uglifycss": "0.0.29",
-    "webpack": "^5.2.0",
-    "webpack-cli": "^4.1.0"
+    "@ungap/url-search-params": "^0.2.2",
+    "copy-webpack-plugin": "^10.2.0",
+    "node-sass": "^7.0.0",
+    "uglifycss": "^0.0.29",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
   }
 }
