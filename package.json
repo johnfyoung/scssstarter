@@ -4,9 +4,8 @@
   "description": "A SCSS Starter Framework",
   "main": "index.js",
   "scripts": {
-    "build": "npm run sass-transpile && npm run js-build",
+    "build": "webpack --config webpack.config.js --mode='production'",
     "js-build": "webpack",
-    "sass-transpile": "node-sass ./src/scss/starter.scss -o ./build/css; uglifycss ./build/css/starter.css > ./build/css/starter.min.css",
     "sass-watch": "node-sass -w ./src/scss/starter.scss -o ./build/css; uglifycss ./build/css/starter.css > ./build/css/starter.min.css"
   },
   "repository": {
@@ -22,7 +21,10 @@
   "devDependencies": {
     "@ungap/url-search-params": "^0.2.2",
     "copy-webpack-plugin": "^10.2.0",
+    "file-loader": "^6.2.0",
     "node-sass": "^7.0.0",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0",
     "uglifycss": "^0.0.29",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
