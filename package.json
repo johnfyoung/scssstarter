@@ -22,7 +22,6 @@
     "@ungap/url-search-params": "^0.2.2",
     "copy-webpack-plugin": "^10.2.0",
     "file-loader": "^6.2.0",
-    "node-sass": "^7.0.0",
     "sass": "^1.45.1",
     "sass-loader": "^12.4.0",
     "uglifycss": "^0.0.29",
